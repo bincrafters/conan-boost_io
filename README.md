@@ -2,7 +2,7 @@
 
 [Conan.io](https://conan.io) package for [Boost.Io](https://github.com/Boostorg/Io) project
 
-The packages generated with this **conanfile** can be found in [Bintray](https://bintray.com/bincrafters/conan-public/Boost.Io%3Abincrafters).
+The packages generated with this **conanfile** can be found in [Bintray](https://bintray.com/bincrafters/public-conan/Boost.Io%3Abincrafters).
 
 ## For Users: Use this package
 

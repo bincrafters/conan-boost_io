@@ -13,7 +13,7 @@ class BoostIoConan(ConanFile):
     lib_short_names = ["io"]
     options = {"shared": [True, False]}
     default_options = "shared=False"
-    build_requires = "Boost.Generator/0.0.1@bincrafters/testing"
+    build_requires = "Boost.Generator/1.65.1@bincrafters/testing"
     requires = "Boost.Config/1.65.1@bincrafters/testing"
 
     def source(self):

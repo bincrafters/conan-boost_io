@@ -8,7 +8,8 @@ class BoostIoConan(ConanFile):
     name = "boost_io"
     version = "1.66.0"
     url = "https://github.com/bincrafters/conan-boost_io"
-
+    author = "Bincrafters <bincrafters@gmail.com>"
+    exports = ["LICENSE.md"]
     lib_short_names = ["io"]
     is_header_only = True
 

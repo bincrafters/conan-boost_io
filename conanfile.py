@@ -4,15 +4,11 @@
 from conans import python_requires
 
 
-base = python_requires("boost_base/1.67.0@bincrafters/testing")
+base = python_requires("boost_base/1.68.0@bincrafters/testing")
 
 class BoostIoConan(base.BoostBaseConan):
     name = "boost_io"
     url = "https://github.com/bincrafters/conan-boost_io"
     lib_short_names = ["io"]
     header_only_libs = ["io"]
-    b2_requires = [
-        "boost_config",
-    ]
-
-
+    b2_requires = ["boost_config"]
